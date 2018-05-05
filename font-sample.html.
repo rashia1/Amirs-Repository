@@ -19,7 +19,6 @@
  <body>
    <a href="font-sample.html">This is a link to the font sample file </a>
     <h1 class= "lede">Demo For The Font Sample</h1>
-    
     <p class= "copy">This is a smample example of different types of FONTS being used</p>
     <p class= "cpoy1">This is a example of a different type of FONT</p>
     <h4>Amir Rashidifar</h4>
