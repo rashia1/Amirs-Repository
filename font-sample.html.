@@ -1,9 +1,27 @@
-p.choice1 {
-font-family: "open sans", Arial, Hevetica;
-} 
-p.choice2 {
-font-family: "Arial", Open Sans, Hevetica;
-} 
-p.choice3 {
-font-family: "Hevetica", Open Sans, Arial;
-} 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Font Sample</title>
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:400,600|Lato:400,700|Open+Sans:400i,600" rel="stylesheet">
+  </head>
+  <style>
+    .lede{
+    font-family: "Gothic", sans-serif;
+      font-size: 200%;
+    }
+    .copy{
+    font-family: "Lato", sans-serif;
+    }
+    .copy1{
+    font-family: "Open+Sans", sans-serif;
+    }
+  </style>
+ <body>
+   <a href="css_demo.html">This is a link to the demo file </a>
+   <a href="font-sample.html">This is a link to the font sample file </a>
+    <h1 class= "lede">Demo For The Font Sample</h1>
+    <p class= "copy">This is a smample example of different types of FONTS being used</p>
+    <p class= "cpoy1">This is a example of a different type of FONT</p>
+    <h4>Amir Rashidifar</h4>
+ </body>
+</html>    
