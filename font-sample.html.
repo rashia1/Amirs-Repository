@@ -1,12 +1,9 @@
-<html>
-  <head>
-    <title>Amir Rashidifar</title>
-  </head>
- <body>
-   <a href="css_demo.html">This is a link to the demo file </a>
-   <a href="font-sample.html">This is a link to the font sample file </a>
-    <h1>Demo For MHCID</h1>
-    <p>This is a smample web page</p>
-    <h4>Amir Rashidifar</h4>
- </body>
-</html>    
+p.choice1 {
+font-family: "open sans", Arial, Hevetica;
+} 
+p.choice2 {
+font-family: "Arial", Open Sans, Hevetica;
+} 
+p.choice3 {
+font-family: "Hevetica", Open Sans, Arial;
+} 
