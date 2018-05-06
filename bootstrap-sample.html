@@ -1,79 +1,118 @@
-html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <style>
-        .card {
-            margin-bottom: 20px;
-        }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Darius the Great</h5>
-                        <p class="card-text">The inventor of Persia</p>
-                        <a href="#" class="btn btn-success">Donate Money</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                            <h5 class="card-title">Cyrus the Great</h5>
-                            <p class="card-text">The Visitor of Persia</p>
-                        <a href="#" class="btn btn-success">Donate Money</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Amir the Great</h5>
-                        <p class="card-text">The Next Persian King</p>
-                        <a href="#" class="btn btn-success">Donate Money</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-12">
-                <div class="card">
-                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Painting_of_Cyrus_the_Great_in_battle.png/300px-Painting_of_Cyrus_the_Great_in_battle.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Cyrus the Great</h5>
-                        <p class="card-text">The "CEO" of Persia</p>
-                        <a href="#" class="btn btn-success">Donate Money</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <a href="#" class="btn btn-success btn-lg btn-block">Donate Money</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <a href="#" class="btn btn-success btn-lg btn-block">Donate Money</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-   </div>
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <style>
+  
+  #slider { 
+  background-color: #333;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(http://www.cais-soas.com/CAIS/Images2/Achaemenid/Cyrus_the_Great/cyrus_the_great_cylinder2.jpg);
+   background-color: #d3d3de;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  #slider button {
+  margin-top: 30px;
+  }
+  
+    .no-padding { 
+      padding-left:0;
+      padding-right:0;
+    }
+    
+    h1 { 
+    font-weight: bold;
+    text-shadow: #333 2px 3px 3px;
+    font-size: 3.5em;
+    }
+    
+    .three-sec .col-md-4 {
+          padding: 55px 3% 0;
+    }
+    
+    .space-top {
+      padding-top: 60px;
+    }
+    
+    .col-md-8 {
+      padding-left: 40px;
+    }
+    
+   #cyrus-img {
+        box-shadow: #333333a1 1px 6px 7px;
+    }
+    
+    .card {    
+   padding: 46px 0px;
+    text-align: center;
+    }
+    
+  </style>
+    <title>Bootstrap Assignment - Darius The Great</title>
+  </head>
+  <body>
+    <div class="row container-fluid" id="slider">
+      <div class="col text-center no-padding">
+       <h1>Darius The Great</h1>
+       <h1>Cyrus the Great</h1>
+    
+	            <button type="button" class="btn btn-primary">Read More</button>
+
+
+      </div>
+    </div>
+    <div class="row space-top">
+        <div class="col-md-8">
+                             <h3>Cyrus the Great</h3>
+                             <p>Cyrus II of Persia (Old Persian: 𐎤𐎢𐎽𐎢𐏁 Kūruš;[4] New Persian: کوروش Kuruš; Hebrew: כֹּרֶשׁ‬‬, Modern Kōréš, Tiberian Kōréš; c. 600 – 530 BC),[5] commonly known as Cyrus the Great [6] and also called Cyrus the Elder by the Greeks, was the founder of the Achaemenid Empire, the first Persian Empire.[7] Under his rule, the empire embraced all the previous civilized states of the ancient Near East,[7] expanded vastly and eventually conquered most of Southwest Asia and much of Central Asia and the Caucasus. From the Mediterranean Sea and Hellespont in the west to the Indus River in the east, Cyrus the Great created the largest empire the world had yet seen.[8] Under his successors, the empire eventually stretched at its maximum extent from parts of the Balkans (Bulgaria-Paeonia and Thrace-Macedonia) and Eastern Europe proper in the west, to the Indus Valley in the east. His regal titles in full were The Great King, King of Persia, King of Anshan, King of Media, King of Babylon, King of Sumer and Akkad, and King of the Four Corners of the World. The Nabonidus Chronicle notes the change in his title from simply "King of Anshan", a city, to "King of Persia". Assyriologist François Vallat wrote that "When Astyages marched against Cyrus, Cyrus is called ‘King of Anshan’, but when Cyrus crosses the Tigris on his way to Lydia, he is ‘King of Persia’. The coup therefore took place between these two events."[9]
+
+The reign of Cyrus the Great lasted c. 30 years. Cyrus built his empire by first conquering the Median Empire, then the Lydian Empire, and eventually the Neo-Babylonian Empire. Either before or after Babylon, he led an expedition into Central Asia, which resulted in major campaigns that were described as having brought "into subjection every nation without exception".[10] Cyrus did not venture into Egypt, and was alleged to have died in battle, fighting the Massagetae along the Syr Darya in December 530 BC.[11][12] He was succeeded by his son, Cambyses II, who managed to add to the empire by conquering Egypt, Nubia, and Cyrenaica during his short rule.</p>
+        </div>
+        <div class="col-md-4 text-center">
+                             <img  class="img-fluid" id="cyrus-img" src="https://cdn.britannica.com/57/124757-004-B420F257.jpg" alt="cyrus the great">
+        </div>                          
+             
+    </div>
+    
+    <div class="row container-fluid three-sec">
+      <div class="col-md-4">
+      <div class="card">
+	<div class="card-body">
+        <h3>Darius the Great</h3>
+        <p>The inventor of Persia</p>
+        <button type="button" class="btn btn-success btn-lg">Donate Money</button>
+        </div></div>
+      </div>
+       <div class="col-md-4">
+            <div class="card">
+	<div class="card-body">
+        <h3>Cyrus the Great</h3>
+        <p>The Visitor of Persia</p>
+         <button type="button" class="btn  btn-success btn-lg">Donate Money</button>
+         </div></div>
+      </div>
+       <div class="col-md-4">
+            <div class="card">
+	<div class="card-body">
+        <h3>Amir the Great</h3>
+        <p>The Next Persian King</p>
+         <button type="button" class="btn btn-success btn-lg">Donate Money</button>
+         </div></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
 </html>
